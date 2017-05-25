@@ -1,0 +1,6 @@
+D:\QLKhachSan\BIN\DAO.dll.config
+D:\QLKhachSan\BIN\DAO.dll
+D:\QLKhachSan\BIN\DAO.pdb
+D:\QLKhachSan\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\QLKhachSan\DAO\obj\Debug\DAO.dll
+D:\QLKhachSan\DAO\obj\Debug\DAO.pdb

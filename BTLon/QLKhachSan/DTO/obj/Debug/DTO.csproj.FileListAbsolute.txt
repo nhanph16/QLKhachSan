@@ -1,0 +1,4 @@
+D:\QLKhachSan\BIN\DTO.dll
+D:\QLKhachSan\BIN\DTO.pdb
+D:\QLKhachSan\DTO\obj\Debug\DTO.dll
+D:\QLKhachSan\DTO\obj\Debug\DTO.pdb

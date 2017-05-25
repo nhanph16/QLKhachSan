@@ -1,0 +1,5 @@
+D:\QLKhachSan\BIN\BUS.dll
+D:\QLKhachSan\BIN\BUS.pdb
+D:\QLKhachSan\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\QLKhachSan\BUS\obj\Debug\BUS.dll
+D:\QLKhachSan\BUS\obj\Debug\BUS.pdb

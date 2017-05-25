@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3C39948-A573-4CE9-B9C9-4ACD83D78AB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLKhachSan</RootNamespace>
+    <AssemblyName>QLKhachSan</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\BIN\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsKhachHang.cs">
+      <DependentUpon>dsKhachHang.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsKhachHang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsKhachHang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChiTietHoaDon.Designer.cs">
+      <DependentUpon>FrmChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChiTietThue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChiTietThue.Designer.cs">
+      <DependentUpon>FrmChiTietThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDSKhachSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDSKhachSan.Designer.cs">
+      <DependentUpon>FrmDSKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHoaDon.Designer.cs">
+      <DependentUpon>FrmHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKhachHang.Designer.cs">
+      <DependentUpon>FrmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLienHe.Designer.cs">
+      <DependentUpon>FrmLienHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhanVien.Designer.cs">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LienKet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LienKet.Designer.cs">
+      <DependentUpon>LienKet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmChiTietHoaDon.resx">
+      <DependentUpon>FrmChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChiTietThue.resx">
+      <DependentUpon>FrmChiTietThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDSKhachSan.resx">
+      <DependentUpon>FrmDSKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHoaDon.resx">
+      <DependentUpon>FrmHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKhachHang.resx">
+      <DependentUpon>FrmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLienHe.resx">
+      <DependentUpon>FrmLienHe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNhanVien.resx">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LienKet.resx">
+      <DependentUpon>LienKet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rptChiTietGia.rdlc" />
+    <EmbeddedResource Include="rptChiTietThue.rdlc" />
+    <EmbeddedResource Include="rptCTHoaDon.rdlc" />
+    <EmbeddedResource Include="rptDSHoaDon.rdlc" />
+    <EmbeddedResource Include="rptDSPhong.rdlc" />
+    <EmbeddedResource Include="rptHoaDon.rdlc" />
+    <EmbeddedResource Include="rptKhachHang.rdlc" />
+    <EmbeddedResource Include="rptNhanVien.rdlc" />
+    <EmbeddedResource Include="rptSanPham.rdlc" />
+    <None Include="dsKhachHang.xsc">
+      <DependentUpon>dsKhachHang.xsd</DependentUpon>
+    </None>
+    <None Include="dsKhachHang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsKhachHang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsKhachHang.xss">
+      <DependentUpon>dsKhachHang.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{46d3e148-0ca2-4bb9-a2c9-10fe3135f780}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{f6845973-c8f3-4992-bd8e-c562c140d8ea}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khach-san-Burj-Al-Arab-hinh-anh-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khach-san-Burj-Al-Arab-hinh-anh-31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\khach-san-Burj-Al-Arab-hinh-anh-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\IMG_5579.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\themnv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\timkiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\suanv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\trolai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\xoanv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\them.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\sua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\khach-san-sea-pearl-hotel-cat-ba-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\victory-vung-tau2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Cancel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
