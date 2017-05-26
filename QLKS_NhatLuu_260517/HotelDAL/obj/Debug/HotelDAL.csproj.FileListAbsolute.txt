@@ -1,0 +1,15 @@
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelDAL.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelDAL.pdb
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDAL\obj\Debug\HotelDAL.csprojResolveAssemblyReference.cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDAL\obj\Debug\HotelDAL.Properties.Resources.resources
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDAL\obj\Debug\HotelDAL.csproj.GenerateResource.Cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDAL\obj\Debug\HotelDAL.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDAL\obj\Debug\HotelDAL.pdb
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\BIN\HotelDAL.dll
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\BIN\HotelDAL.pdb
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\HotelDAL\obj\Debug\HotelDAL.csprojResolveAssemblyReference.cache
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\HotelDAL\obj\Debug\HotelDAL.Properties.Resources.resources
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\HotelDAL\obj\Debug\HotelDAL.csproj.GenerateResource.Cache
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\HotelDAL\obj\Debug\HotelDAL.dll
+C:\Users\Huyen\Desktop\QLKhachSan-master\KhachSan_Luu\HotelDAL\obj\Debug\HotelDAL.pdb
+C:\Users\Huyen\Documents\Visual Studio 2013\Projects\KhachSan\BIN\HotelDAL.dll.config

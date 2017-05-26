@@ -1,0 +1,7 @@
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelBUS.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelBUS.pdb
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelBUS\obj\Debug\HotelBUS.csprojResolveAssemblyReference.cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelBUS\obj\Debug\HotelBUS.Properties.Resources.resources
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelBUS\obj\Debug\HotelBUS.csproj.GenerateResource.Cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelBUS\obj\Debug\HotelBUS.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelBUS\obj\Debug\HotelBUS.pdb

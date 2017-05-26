@@ -1,0 +1,7 @@
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelDTO.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\BIN\HotelDTO.pdb
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDTO\obj\Debug\HotelDTO.csprojResolveAssemblyReference.cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDTO\obj\Debug\HotelDTO.Properties.Resources.resources
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDTO\obj\Debug\HotelDTO.csproj.GenerateResource.Cache
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDTO\obj\Debug\HotelDTO.dll
+C:\Users\Huyen\documents\visual studio 2013\Projects\KhachSan\HotelDTO\obj\Debug\HotelDTO.pdb
